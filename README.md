@@ -26,7 +26,7 @@ When the player is hit they get invincibility frames, indicated by the character
 * There are hidden treasure rooms that are only unlocked by placing a bomb next to a wall where you think one might be.
 * Boss rooms are indicated by a skull and bones on their doors.
 
-##Enemies:
+## Enemies:
 * Most enemies, except for the blue slimes and bosses, are able to fly over objects (including the eyballs). 
 * Bats will run away from you and spawn up to 3 other enemies that attack you.
 * Enemies that don't shoot anything can only deal damage upon collision with the player.
