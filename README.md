@@ -25,7 +25,11 @@ Various items are spawned at the center of each room that contains enemies upon 
 * **Secret Room Key:** Can be used to unlock magenta coloured doors that randomly spawn around levels. These rooms contain special buffs that enhance the player's attributes.
 * **Bombs:** Bombs that can be placed down by the player.
 * **Health:** Extra health that the player can use to heal themselves.
-* **Various Upgrades:** Upgrades found in secret and hidden rooms, enhance the player's speed, health, damage and fire rate.
+* **Various Upgrades:** Upgrades found in secret and hidden rooms, enhance the player's speed, health, damage and fire rate.</br>
+
+![BombDemo](./Screenshots/Bomb.gif)</br>
+*Bomb demonstration*</br>
+*Note: GIF speed is slower than actual game speed*</br>
 
 ## Progressing to Next Levels:
 In order to progress through the game you have to find the final boss of each dungeon and defeat it. Upon its defeat
