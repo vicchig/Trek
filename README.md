@@ -12,7 +12,7 @@ This arduous trek consists of four main challanges, the main character must defe
 * P - Pause the game
 * G - Godmode
 
-## UI:
+## HUD:
 The top left corner contains health, bomb amount and key amount of the player.
 The top right corner contains the map of all discovered rooms with the current room being filled with red. Rooms that have been discovered appear in grey and rooms that have been discovered, but not explored appear in black. 
 
