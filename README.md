@@ -14,18 +14,18 @@ This arduous trek consists of four main challanges, the main character must defe
 
 ## UI:
 The top left corner contains health, bomb amount and key amount of the player.
-The top right corner contains the map of all discovered rooms with the current room being filled in red. 
+The top right corner contains the map of all discovered rooms with the current room being filled with red. Rooms that have been discovered appear in grey and rooms that have been discovered, but not explored appear in black. 
 
 ## Player:
 * The player is able to shoot their enemies using magic and place bombs to destroy enemies and obstacles alike.
 * When the player is hit they get invincibility frames, indicated by the character sprite blinking, for a short time period.
 
 ## Items:
-* Various items are spawned at the center of each room that contains enemies upon their defeat.</br>
-* Secret Room Key: Can be used to unlock magenta coloured doors that randomly spawn around levels. These rooms contain special buffs that enhance the player's attributes.
-* Bombs: Bombs that can be placed down by the player.
-* Health: Extra health that the player can use to heal themselves.
-* Various Upgrades: Upgrades found in secret and hidden rooms, enhance the player's speed, health, damage and fire rate.
+Various items are spawned at the center of each room that contains enemies upon their defeat.</br>
+* **Secret Room Key:** Can be used to unlock magenta coloured doors that randomly spawn around levels. These rooms contain special buffs that enhance the player's attributes.
+* **Bombs:** Bombs that can be placed down by the player.
+* **Health:** Extra health that the player can use to heal themselves.
+* **Various Upgrades:** Upgrades found in secret and hidden rooms, enhance the player's speed, health, damage and fire rate.
 
 ## Progressing to Next Levels:
 In order to progress through the game you have to find the final boss of each dungeon and defeat it. Upon its defeat
@@ -64,8 +64,11 @@ a trapdoor will appear in the boss room. Walk over the door in order to descend 
 ## Bosses:
 * There are a total of four bosses that have to be defeated to complete the game.
 * Malformed Alchemist Sandaval and Regret spawn minions that have to be eliminated before being able to damage the boss.</br>
+* Each boss has a unique AI behaviour. 
 
 ### Sandaval, the Malformed Alchemist
+Sandaval will slowly follow the player in an attempt to devour them. If threatened, it shoots a radial blast of magic.<br>
+
 ![Boss1](./Screenshots/SandavalAttack.png)</br>
 *Sandaval, the Malformed Alchemist*</br>
 
@@ -76,10 +79,20 @@ a trapdoor will appear in the boss room. Walk over the door in order to descend 
 *Sandaval's minions*</br>
 
 ### Fear
-* Fear is the representation of the main characters deepest fears.
+* Fear is able to attack the player using regular magic bursts (not unlike the ones that the player is able to use) as well as shoot a radiual burts of magic when the player gets too close. Fear is also able to dodge the players magic.
+* Fear is the representation of the main characters deepest fears. </br>
+
+![Fear](./Screenshots/Boss2P1.png)</br>
+*Fear*</br>
 
 ### Regret
-* Regret is the representation of all regrets that the main character must vanquish in order to become a master wizard.
+* Regret is the representation of all regrets that the main character must vanquish in order to become a master wizard. It dashes madly around the room, using its various minions to harm the player. </br>
+
+![Regret](./Screenshots/Regret.png)</br>
+*Regret*</br>
 
 ### Irgret, the Last Crystal Dragon
-* Slaying a dragon is no simple task. The player will have to make sure to visit some secret and hidden rooms to become powerful enough for this task.
+* Irgret is able to shoot magic that tracks the player and conjure a radial shield in the form of magic spheres that can harm the player if they hit them. These shield spheres are on a time, but may be consumed to protect Irgret when the palyer's magic hits them. Slaying a dragon is no simple task. The player will have to make sure to visit some secret and hidden rooms to become powerful enough for this task.</br>
+
+![Irgret](./Screenshots/Irgret.png)</br>
+*Irgret, the last boss of the game*</br>
